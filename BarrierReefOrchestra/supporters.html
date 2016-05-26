@@ -33,6 +33,7 @@
   	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
   		<div class="container">
   			<div class="navbar-header">
+                <a href="index.html" class="brand-name"><img src="logo/logo3.png">Barrier Reef Orchestra</a>
   				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
@@ -43,97 +44,288 @@
   				
   			</div><!-- Navbar Header-->
   			<div class="collapse navbar-collapse" id="navbar-collapse">
+  				
+  			
   				<ul class="nav nav-tabs">
-                        <li role="presentation" class=""><a href="template.html" class="pull-left"><img src="logo/imageedit_1_7590721148.png"></a></li>
-                    <li role="presentation" class=""><a href="news.html">News</a></li>
-                    <li role="presentation" class=""><a href="supporters.html">Supporters</a></li>
-                    <li role="presentation" class=""><a href="feedback.html">Feedback</a></li>
-                    <li role="presentation" class=""><a href="gallery.html">Gallery</a></li>
-                    <li role="presentation" class=""><a href="people.html">People</a></li>
-                    <li role="presentation" class=""><a href="aboutus.html">About Us</a></li>
-                    <li role="presentation" class=""><a href="contactus.html">Contact Us</a></li>
+                        
+                    <li ><a href="news.html">News</a></li>
+                    <li ><a href="supporters.html">Supporters</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li ><a href="people.html">People</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li ><a href="contactus.html">Contact Us</a></li>
   				</ul>
-                
-               <div class="btn-group navbar-btn navbar-right">
-                   <a href="" class="btn btn-long btn-success">Sign Up</a>
-                  <a href="" class="btn btn-long btn-default ">Sign In</a>
-                  <a href="" class="btn btn-long btn-info ">Members</a>
-           </div>
+                  
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
-   <!--sidebar-->
-     
-      <!--end sidebar-->
-      
-      <!--jumbotron-->
-      <div class="jumbotron">
+  <div class="jumbotron">
+          <div class="btn-group btn-group-justified">
+          <div class="btn-group">
+                <div class="container">
+                    
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#modal-1">Book Tickets</button>
+                   
+                <div class="modal fade" id="modal-1" role="dialog">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Booking details</h3>
+                        </div>
+                        <div class="modal-body">
+                        <a href="https://whatson.townsville.qld.gov.au/categories/ticketshop" target="_blank"> <img src="sponsors/ticketshop_logo.png"></a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div><!--end container-->
+               </div><!--end btn group-->
+              <div class="btn-group">
+             <div class="container">
+                 
+        <button type="button" class="btn btn-info " data-toggle="modal" data-target="#modal-2">Sign Up</button>
+                 
+                <div class="modal fade" id="modal-2" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Sign Up</h3>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row">
+          
+        <div class="col-lg-8">
+            <form action="thankyou.html" class="form-horizontal" name = "myForm" onsubmit="return(validate());">
+            <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Name : </label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-name" placeholder="Enter your fullname" name = "Name">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-email" class="col-lg-2 control-label">Email : </label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-email" placeholder="Enter your e-mail address" name = "Email">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-url" class="col-lg-2 control-label">Your Website :</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-url" placeholder="if you have any" name="website">
+                
+                </div>
+                </div><!--end form group-->
+                <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Contact Number :</label>
+                <div class="col-lg-10">
+                    <textarea name="user-message" id="user-message" class="form-control"  placeholder="Enter your phone number here"></textarea>
+                
+                </div>
+                </div><!--end form group-->  
+                <div class="modal-footer">
+
+                            <a href="thankyou.html" target="_blank" class="btn btn-success ">Submit</a><br>
+                            <a href="" class="btn btn-default " data-dismiss="modal">Cancel</a>
+
+        </div>
+                        
+            </form>
+        </div>
+          </div>
+                           
+                        </div><!--end modal body-->
+                       
+                        </div><!--end modal content-->
+                    </div>
+                    </div><!--End modal-->
+                    </div><!--end container-->
+                  </div><!--end sign up btn group-->
+              <div class="btn-group">
+          <div class="container">
+              
+        <button type="button" class="btn btn-success " data-toggle="modal" data-target="#modal-3">Sign In</button>
+              
+                <div class="modal fade" id="modal-3" role="dialog">
+                    <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Sign In</h3>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row">
+          
+        <div class="col-lg-8">
+            <form action="thankyou.html" class="form-horizontal" name = "myForm" onsubmit="return(validate());">
+            <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Username : </label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-name" placeholder="Enter your username" name = "Usernmae">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-password" class="col-lg-2 control-label">Password : </label>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="user-password" placeholder="Enter your password" name = "Password">
+                
+                </div>
+                </div><!--end form group--> 
+                 <div class="modal-footer">
+
+                            <a href="thankyou.html" target="_blank" class="btn btn-success ">Sign In</a><br>
+                            <a href="" class="btn btn-default " data-dismiss="modal">Cancel</a>
+
+        </div>
+                        
+            </form>
+        </div>
+          </div>
+                           
+                        </div><!--end modal body-->
+                        </div><!--end modal content-->
+                    </div>
+                    </div><!--End modal-->
+                    </div><!--end container-->
+                  </div><!--end sign in btn group-->
+              <div class="btn-group">
+          <div class="container">
+              
+        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-4">Members Login</button>
+              
+                <div class="modal fade" id="modal-4" role="dialog">
+                    <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Members Login</h3>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row">
+          
+        <div class="col-lg-8">
+            <form action="thankyou.html" class="form-horizontal" name = "myForm" onsubmit="return(validate());">
+             <div class="form-group">
+                <label for="user-id" class="col-lg-2 control-label">Members ID :</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-name" placeholder="Enter your ID" name = "ID">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-password" class="col-lg-2 control-label">Password : </label>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="user-password" placeholder="Enter your password" name = "Password">
+                
+                </div>
+                </div><!--end form group-->
+                <div class="modal-footer">
+
+                            <a href="thankyou.html" target="_blank" class="btn btn-success ">Sign In</a><br>
+                            <a href="" class="btn btn-default " data-dismiss="modal">Cancel</a>
+
+        </div>
+                        
+            </form>
+        </div>
+          </div>
+                           
+                        </div><!--end modal body-->
+                        </div><!--end modal content-->
+                    </div>
+                    </div><!--End modal-->
+                    </div><!--end container-->
+              </div><!--end members btn group-->
+          </div><!--end btn group justified-->
       
           <div class="container text-center" id="supporters">
               <div class="page-header text-center">
               <h1>Supporters</h1>
+                  <p><h2>North Queensland Ensembles Inc</h2><br> 
+                  <h3>BARRIER REEF ORCHESTRA </h3><br>
+                  <h4>BENEFACTORS' ROLL </h4><br>
+
+
+                  <p class="bg-primary"><strong>Carol Dall'Osto</strong></p> 
+                  <p class="bg-danger"><strong>Councillor Ray Gartrell</strong></p> 
+                  <p class="bg-info"><strong>Bruce Gibson and Dorothy Gibson-Wilde O.A.M.</strong></p> 
+                  <p class="bg-warning"><strong>Dr Kerry Gillespie</strong></p> 
+                  <p class="bg-primary"><strong>Judy Hunter O.A.M. </strong></p>
+                  <p class="bg-danger"><strong>Ewen Jones MP </strong></p>
+                  <p class="bg-info"><strong>David and Janine Kippin </strong></p>
+                  <p class="bg-warning"><strong>Simon and Lorraine McConnell </strong></p>
+                  <p class="bg-primary"><strong>Senator Ian McDonald </strong></p>
+                  <p class="bg-danger"><strong>Dr Maria Moon </strong></p>
+                  <p class="bg-info"><strong>Terry O'Toole </strong></p>
+                  <p class="bg-warning"><strong>Bronia and Neil Renison </strong></p>
+                  <p class="bg-primary"><strong>Desley Wheeler </strong></p>
+                  <p class="bg-danger"><strong>Graham Wheeler </strong></p>
+                  <p class="bg-info"><strong>Nita Vasilescu </strong></p>
+
+                  <p class="bg-warning"><small>@ 23 march 2016</small></p>
+                  <p>Become an Orchestra Benefactor and assist Townsville’s Community Orchestra with your personal and publicly acknowledged support which encourages others to do the same.</p>
+</p>
+             <p> <h6>Click Below For More Information</h6></p>
+              <a href="http://www.nqorchestra.com.au/docs/north-queensland-orchestra-benefactor-form.pdf" target="_blank" class="btn btn-info" role="button">Benefactor Form</a>
               </div> 
-
-<p>The Barrier Reef Orchestra was formed in Townsville in 2000 after a workshop conducted by Richard McIntyre from Canberra. Over the past 15 years it has gone from strength to strength and now presents three main concerts a year, as well as smaller concerts such as the children’s concert Peter and the Wolf in 2014. We are a community orchestra, drawing players from a large cross section of the Townsville community and sometimes beyond. All are drawn together by their great love of orchestral music and desire to provide North Queensland with quality performances. Depending on the program up to 50 musicians play a wide ranging repertoire which has included some of the great orchestral compositions such as the New World Symphony by Dvorak and most of the Beethoven symphonies as well as Tchaikovsky and Bizet. 
-
-An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience was recently followed by Peter Sculthorpe’s Mangroves, a collaboration with audio-visual artists, ABC radio and Umbrella Studios. The programs are testament to the orchestra’s willingness to embrace mainstream classical repertoire as well as opportunities for collaboration. 
-
-An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience, won the Townsville City Council Arts Award for best musical production in 2011. This was recently followed by performing Peter Sculthorphe’s Mangroves, a collaboration with audio-visual artists, performing on ABC radio and at Umbrella Studios. Another recent highlight was playing with James Morrison for the second time to present Latin Fiesta, which was originally done with the Western Australian Orchestra. 
-
-In 2015 the orchestra was invited to perform in three festivals, joining with the AFCM to present a free public concert in Queens Garden the 1812!; Dancenorth at Jezzine Barracks for Twilight and featured in World Music as part of the Townsville Civic Theatre music season. This was a first for the orchestra - underscoring its value to the community and highlighting its continued prominence in the cultural soundscape of North Queensland. 
-
-Now to 2016 which is going to be a stellar year for your Orchestra. Already we have our three major concerts which will include opera, featuring Paul Tabone born in Ingham, but now working the international stage as a tenor based in Italy. Rachmaninov’s Piano Concerto No.2 featuring last year’s winner of the instrumental section of the ACVC, Arthur Athan. Our opening performance titled Dreams and Dances is sure to have some favourites such as Afternoon of a Fawn by Debussy. 
-
-We are also pleased to be part of the Townsville 150 Concert where we will share the stage with the likes of David Campbell, Luke Kennedy, Bronwyn Douglas and the 1 RAR Band just to name a few of the guests. We will be back to Queens Gardens for a repeat performance as part of AFCM due to the huge popularity of last year’s concert.</p>
           </div><!--end container-->
       </div><!--end jumbotron-->
-      
+    
+    <div class="page-header text-center" id="donations">
+          <h2><strong>Donations</strong></h2>
+        <hr>
+        <h4>Sponsor or Donate to the Orchestra </h4>
+        <p>The North Queensland Ensembles Inc is a tax deductible fund listed on the Register of Cultural Organisations under Subdivision 30-B of the Income tax Assessment Act 1997. Donations of $2.00 or more are tax deductible. 
+Help us continue to provide quality entertainment for the Townsville community by supporting the orchestra.</p>
+        <a href="contactus.html" target="_blank" class="btn btn-info" role="button">Contact Us</a>
+          </div><!--page header-->
 <!--sponsers-->
-      
+      <div class="page-header text-center" id="sponsers">
+          <h2><strong>Sponsers</strong></h2>
+          </div><!--page header-->
        <div class="container">
     <div class="row">
-      <div class="col-md-4 text-center">
-        <img class="img-rounded image-responsive" src="sponsors/townsville-council-logo.jpg" />
-        <h2>One</h2>
-        <p>Lorem ispum</p>
+      <div class="col-md-3 text-center">
+           <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/townsville-council-logo.jpg" /></a>
       </div>
 
-      <div class="col-md-4">
-        <img class="img-rounded" src="sponsors/AFCMlogo-25th.gif"/>
-        <h2>Two</h2>
-        <p>Lorem ispum</p>
+      <div class="col-md-3 text-center">
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/ACVClogo.jpg" /></a>
       </div>
 
-      <div class="col-md-4">
-        <img class="img-rounded" src="sponsors/cowboys-logo-web.jpg" />
-        <h2>Three</h2>
-        <p>Lorem ispum</p>
+      <div class="col-md-3 text-center">
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/AFCMlogo-25th.gif" /></a>
+      </div>
+        <div class="col-md-3 text-center">
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/SOE%20new%20logo%203.jpg" /></a>
+       
       </div>
     </div>
   </div>
+      <hr>
         <div class="container">
     <div class="row">
       <div class="col-md-3 text-center">
-        <img class="img-thumbnail image-responsive" src="sponsors/SOE%20new%20logo%203.jpg"/>
-        <h2>One</h2>
-        <p>Lorem ispum</p>
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/asap-logo.png" /></a>
       </div>
 
-      <div class="col-md-3">
-        <img class="img-rounded" src='img/fruit2.jpg' />
-        <h2>Two</h2>
-        <p>Lorem ispum</p>
+      <div class="col-md-3 text-center">
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/GG%20logo%20for%20email.jpg" /></a>
       </div>
 
-      <div class="col-md-3">
-        <img class="img-rounded" src='img/fruit2.jpg' />
-        <h2>Three</h2>
-        <p>Lorem ispum</p>
+      <div class="col-md-3 text-center">
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/cowboys-logo-web.jpg" /></a>
       </div>
-    <div class="col-md-3">
-        <img class="img-rounded" src='img/fruit2.jpg' />
-        <h2>Three</h2>
-        <p>Lorem ispum</p>
+    <div class="col-md-3 text-center">
+        <a href="https://www.townsville.qld.gov.au/" target="_blank"> <img class="img-rounded image-responsive" src="sponsors/sturt-business-centre-logo.png" /></a>
       </div>
     </div>
   </div>
@@ -143,7 +335,7 @@ We are also pleased to be part of the Townsville 150 Concert where we will share
       <hr>
    <div class="container text-center">
           <h3>Subscribe</h3>
-              <p>enter your name and email</p>
+              <p>For Newsletter</p>
               <form action="" class="form-inline">
               <div class="form-group">
                   <label for="yourname">Your Name</label>
@@ -157,9 +349,9 @@ We are also pleased to be part of the Townsville 150 Concert where we will share
                 </form>
        <hr>
        <ul class="list-inline">
-       <li><a href="">facebook</a></li>
+       <li><a href="https://www.facebook.com/nqorchestra"><img src="fbicon/FB-FindUsonFacebook-online-114.png"></a></li>
        </ul>
-       <p>&copy; copyright @ 2016</p>
+       <p><strong>&copy; Copyright @ 2016</strong></p>
           </div>
       </footer>     
 

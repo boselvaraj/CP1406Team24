@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="shortcut icon" href="logo/favicon.ico">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,16 +23,18 @@
   </head>
     <style> 
     body{
-    padding: 40px;
+    padding: 100px;
     }
     </style>
     
   <body data-spy="scroll" data-target="#my-navbar">
               
    <!-- Navbar -->
+  	<!-- Navbar -->
   	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
   		<div class="container">
   			<div class="navbar-header">
+                <a href="index.html" class="brand-name"><img src="logo/logo3.png">Barrier Reef Orchestra</a>
   				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
@@ -45,30 +48,218 @@
   				
   			
   				<ul class="nav nav-tabs">
-                        <li role="presentation" class=""><a href="template.html" class="pull-left"><img src="logo/imageedit_1_7590721148.png"></a></li>
-                    <li role="presentation" class=""><a href="news.html">News</a></li>
-                    <li role="presentation" class=""><a href="supporters.html">Supporters</a></li>
-                    <li role="presentation" class=""><a href="feedback.html">Feedback</a></li>
-                    <li role="presentation" class=""><a href="gallery.html">Gallery</a></li>
-                    <li role="presentation" class=""><a href="people.html">People</a></li>
-                    <li role="presentation" class=""><a href="aboutus.html">About Us</a></li>
-                    <li role="presentation" class=""><a href="contactus.html">Contact Us</a></li>
+                        
+                    <li ><a href="news.html">News</a></li>
+                    <li ><a href="supporters.html">Supporters</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li ><a href="people.html">People</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li ><a href="contactus.html">Contact Us</a></li>
   				</ul>
-                  <div class="btn-group navbar-btn navbar-right">
-                   <a href="" class="btn btn-long btn-success">Sign Up</a>
-                  <a href="" class="btn btn-long btn-default ">Sign In</a>
-                  <a href="" class="btn btn-long btn-info ">Members</a>
-           </div>
+                  
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
+      <div class="jumbotron">
+          
+          <div class="btn-group btn-group-justified">
+          <div class="btn-group">
+                <div class="container">
+                    
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#modal-1">Book Tickets</button>
+                   
+                <div class="modal fade" id="modal-1" role="dialog">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Booking details</h3>
+                        </div>
+                        <div class="modal-body">
+                        <a href="https://whatson.townsville.qld.gov.au/categories/ticketshop" target="_blank"> <img src="sponsors/ticketshop_logo.png"></a>
+                            <p>Tickets on sale soon! 7:30 pm Saturday 17 July at Townsville CivicTheatre</p> 
+                            <ul><li>Adult-$38</li><li> Concession-$34</li><li> Child/student-$15</li> <li>NQE Member - $32</li></ul> 
+
+<p>Cards accepted as concession price tickets - Pension, Tertiary Students Full-time and Senior cards.</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div><!--end container-->
+               </div><!--end btn group-->
+              <div class="btn-group">
+             <div class="container">
+                 
+        <button type="button" class="btn btn-info " data-toggle="modal" data-target="#modal-2">Sign Up</button>
+                 
+                <div class="modal fade" id="modal-2" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Sign Up</h3>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row">
+          
+        <div class="col-lg-8">
+            <form action="thankyou.html" class="form-horizontal" name = "myForm" onsubmit="return(validate());">
+            <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Name : </label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-name" placeholder="Enter your fullname" name = "Name">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-email" class="col-lg-2 control-label">Email : </label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-email" placeholder="Enter your e-mail address" name = "Email">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-url" class="col-lg-2 control-label">Your Website :</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-url" placeholder="if you have any" name="website">
+                
+                </div>
+                </div><!--end form group-->
+                <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Contact Number :</label>
+                <div class="col-lg-10">
+                    <textarea name="user-message" id="user-message" class="form-control"  placeholder="Enter your phone number here"></textarea>
+                
+                </div>
+                </div><!--end form group-->  
+                <div class="modal-footer">
+
+                            <a href="thankyou.html" target="_blank" class="btn btn-success ">Submit</a><br>
+                            <a href="" class="btn btn-default " data-dismiss="modal">Cancel</a>
+
+        </div>
+                        
+            </form>
+        </div>
+          </div>
+                           
+                        </div><!--end modal body-->
+                       
+                        </div><!--end modal content-->
+                    </div>
+                    </div><!--End modal-->
+                    </div><!--end container-->
+                  </div><!--end sign up btn group-->
+              <div class="btn-group">
+          <div class="container">
+              
+        <button type="button" class="btn btn-success " data-toggle="modal" data-target="#modal-3">Sign In</button>
+              
+                <div class="modal fade" id="modal-3" role="dialog">
+                    <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Sign In</h3>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row">
+          
+        <div class="col-lg-8">
+            <form action="thankyou.html" class="form-horizontal" name = "myForm" onsubmit="return(validate());">
+            <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Username : </label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-name" placeholder="Enter your username" name = "Usernmae">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-password" class="col-lg-2 control-label">Password : </label>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="user-password" placeholder="Enter your password" name = "Password">
+                
+                </div>
+                </div><!--end form group--> 
+                 <div class="modal-footer">
+
+                            <a href="thankyou.html" target="_blank" class="btn btn-success ">Sign In</a><br>
+                            <a href="" class="btn btn-default " data-dismiss="modal">Cancel</a>
+
+        </div>
+                        
+            </form>
+        </div>
+          </div>
+                           
+                        </div><!--end modal body-->
+                        </div><!--end modal content-->
+                    </div>
+                    </div><!--End modal-->
+                    </div><!--end container-->
+                  </div><!--end sign in btn group-->
+              <div class="btn-group">
+          <div class="container">
+              
+        <button type="button" class="btn btn-warning " data-toggle="modal" data-target="#modal-4">Members Login</button>
+              
+                <div class="modal fade" id="modal-4" role="dialog">
+                    <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Members Login</h3>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row">
+          
+        <div class="col-lg-8">
+            <form action="thankyou.html" class="form-horizontal" name = "myForm" onsubmit="return(validate());">
+             <div class="form-group">
+                <label for="user-id" class="col-lg-2 control-label">Members ID :</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="user-name" placeholder="Enter your ID" name = "ID">
+                
+                </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                <label for="user-password" class="col-lg-2 control-label">Password : </label>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="user-password" placeholder="Enter your password" name = "Password">
+                
+                </div>
+                </div><!--end form group-->
+                <div class="modal-footer">
+
+                            <a href="thankyou.html" target="_blank" class="btn btn-success ">Sign In</a><br>
+                            <a href="" class="btn btn-default " data-dismiss="modal">Cancel</a>
+
+        </div>
+                        
+            </form>
+        </div>
+          </div>
+                           
+                        </div><!--end modal body-->
+                        </div><!--end modal content-->
+                    </div>
+                    </div><!--End modal-->
+                    </div><!--end container-->
+              </div><!--end members btn group-->
+          </div><!--end btn group justified-->
+          <div class="page-header text-center" id="aboutus">
+          <h1>About Us</h1>
+          </div><!--page header-->
+      </div><!--end jumbotron-->
   
     <!--about us-->
        <div class="container">
       <section>
-          <div class="page-header text-center" id="aboutus">
-          <h1>About Us</h1>
-          </div><!--page header-->
+          
           <div class="panel-group" id="accordian">
           <div class="panel panel-default">
               <div class="panel-heading">
@@ -327,7 +518,7 @@ I am confident that this enthusiasm and support will continue under Andrew Ryder
       <hr>
    <div class="container text-center">
           <h3>Subscribe</h3>
-              <p>enter your name and email</p>
+              <p>For Newsletter</p>
               <form action="" class="form-inline">
               <div class="form-group">
                   <label for="yourname">Your Name</label>
@@ -341,9 +532,9 @@ I am confident that this enthusiasm and support will continue under Andrew Ryder
                 </form>
        <hr>
        <ul class="list-inline">
-       <li><a href="">facebook</a></li>
+       <li><a href="https://www.facebook.com/nqorchestra"><img src="fbicon/FB-FindUsonFacebook-online-114.png"></a></li>
        </ul>
-       <p>&copy; copyright @ 2016</p>
+       <p><strong>&copy; Copyright @ 2016</strong></p>
           </div>
       </footer>     
 
